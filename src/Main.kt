@@ -9,4 +9,7 @@ fun main() {
     println(list1.get(0))
     println(list1[0])
     val list3=AEDArrayList<Int>()
+    val list4=AEDLinkedList<String>()
+    val list5=AEDLinkedList<Int>()
+    list5.
 }
