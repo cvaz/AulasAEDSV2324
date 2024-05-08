@@ -11,5 +11,20 @@ fun main() {
     val list3=AEDArrayList<Int>()
     val list4=AEDLinkedList<String>()
     val list5=AEDLinkedList<Int>()
-    list5.
+    val mySet=AEDHashSet<Int>()
+    mySet.add(0)
+    mySet.add(4)
+    for(i in mySet) {
+        println(i)
+    }
+    val mySet2=HashSet<Int>()
+    mySet2.add(0)
+    mySet2.add(4)
+    for(i in mySet2) {
+        println(i)
+    }
+    val it=mySet2.iterator()
+    while(it.hasNext()) {
+        println(it.next())
+    }
 }

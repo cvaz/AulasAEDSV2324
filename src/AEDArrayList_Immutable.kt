@@ -7,8 +7,7 @@ class AEDArrayList_Immutable<E>: AEDList<E>{
     }
 
 
-    override val size: Int
-        get() = elements.size
+    override var size: Int =0
 
 
     override fun get(i: Int): E {
